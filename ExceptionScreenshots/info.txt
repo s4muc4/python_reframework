@@ -1,0 +1,3 @@
+###
+In this folder, exception screenshos are saved
+###
