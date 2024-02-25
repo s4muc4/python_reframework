@@ -16,6 +16,8 @@ This project is a clone of REFramework (Robotic Enterprise Framework) designed b
 
 ![Alt Text](readmeImages/venv_Activation.png)
 
+- To install all project dependencies in your venv, execute this code: ``pip install -r requirements.txt``
+
 ## Usage
 
 ----
