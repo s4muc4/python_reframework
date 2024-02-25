@@ -1,0 +1,112 @@
+12:44:01 - INFO - #####---AUTOMATION STARTED---#####
+12:44:01 - STATE - init
+12:44:01 - TRACE - Your resolution is: 2560x1440
+12:44:01 - INFO - [initAllSettings] - Started
+12:44:01 - TRACE - 17 items in config
+12:44:01 - INFO - [initAllSettings] - Ended
+12:44:01 - INFO - [killAllProcess] - Started
+12:44:01 - TRACE - No process found with name chrome.
+12:44:01 - TRACE - No process found with name excel.
+12:44:01 - INFO - [killAllProcess] - Ended
+12:44:01 - INFO - [getInputData] - Started
+12:44:01 - INFO - [getInputData] - Ended
+12:44:01 - INFO - [initAllApplications] - Started
+12:44:01 - INFO - [initAllApplications] - Ended
+12:44:01 - STATE - get_transaction
+12:44:01 - INFO - [getTransactionData] - Started
+12:44:01 - INFO - Getting data
+12:44:01 - INFO - [getTransactionData] - Ended
+12:44:01 - STATE - process
+12:44:01 - INFO - [process] - Started
+12:44:01 - INFO - Processing item: John - jsmith@itsolutions.co.uk
+12:44:01 - INFO - [process] - Ended
+12:44:01 - INFO - [setTransactionStatus] - Started
+12:44:01 - STATE - get_transaction
+12:44:01 - INFO - [getTransactionData] - Started
+12:44:01 - INFO - Getting data
+12:44:01 - INFO - [getTransactionData] - Ended
+12:44:01 - STATE - process
+12:44:01 - INFO - [process] - Started
+12:44:01 - INFO - Processing item: Jane - jdorsey@mc.com
+12:44:01 - INFO - [process] - Ended
+12:44:01 - INFO - [setTransactionStatus] - Started
+12:44:01 - STATE - get_transaction
+12:44:01 - INFO - [getTransactionData] - Started
+12:44:01 - INFO - Getting data
+12:44:01 - INFO - [getTransactionData] - Ended
+12:44:01 - STATE - process
+12:44:01 - INFO - [process] - Started
+12:44:01 - INFO - Processing item: Albert - kipling@waterfront.com
+12:44:01 - INFO - [process] - Ended
+12:44:01 - INFO - [setTransactionStatus] - Started
+12:44:01 - STATE - get_transaction
+12:44:01 - INFO - [getTransactionData] - Started
+12:44:01 - INFO - Getting data
+12:44:01 - INFO - [getTransactionData] - Ended
+12:44:01 - STATE - process
+12:44:01 - INFO - [process] - Started
+12:44:01 - INFO - Processing item: Michael - mrobertson@mc.com
+12:44:01 - INFO - [process] - Ended
+12:44:01 - INFO - [setTransactionStatus] - Started
+12:44:01 - STATE - get_transaction
+12:44:01 - INFO - [getTransactionData] - Started
+12:44:01 - INFO - Getting data
+12:44:01 - INFO - [getTransactionData] - Ended
+12:44:01 - STATE - process
+12:44:01 - INFO - [process] - Started
+12:44:01 - INFO - Processing item: Doug - dderrick@timepath.co.uk
+12:44:01 - INFO - [process] - Ended
+12:44:01 - INFO - [setTransactionStatus] - Started
+12:44:01 - STATE - get_transaction
+12:44:01 - INFO - [getTransactionData] - Started
+12:44:01 - INFO - Getting data
+12:44:01 - INFO - [getTransactionData] - Ended
+12:44:01 - STATE - process
+12:44:01 - INFO - [process] - Started
+12:44:01 - INFO - Processing item: Jessie - jmarlowe@aperture.us
+12:44:01 - INFO - [process] - Ended
+12:44:01 - INFO - [setTransactionStatus] - Started
+12:44:01 - STATE - get_transaction
+12:44:01 - INFO - [getTransactionData] - Started
+12:44:01 - INFO - Getting data
+12:44:01 - INFO - [getTransactionData] - Ended
+12:44:01 - STATE - process
+12:44:01 - INFO - [process] - Started
+12:44:01 - INFO - Processing item: Stan - shamm@sugarwell.org
+12:44:01 - INFO - [process] - Ended
+12:44:01 - INFO - [setTransactionStatus] - Started
+12:44:01 - STATE - get_transaction
+12:44:01 - INFO - [getTransactionData] - Started
+12:44:01 - INFO - Getting data
+12:44:01 - INFO - [getTransactionData] - Ended
+12:44:01 - STATE - process
+12:44:01 - INFO - [process] - Started
+12:44:01 - INFO - Processing item: Michelle - mnorton@aperture.us
+12:44:01 - INFO - [process] - Ended
+12:44:01 - INFO - [setTransactionStatus] - Started
+12:44:01 - STATE - get_transaction
+12:44:01 - INFO - [getTransactionData] - Started
+12:44:01 - INFO - Getting data
+12:44:01 - INFO - [getTransactionData] - Ended
+12:44:01 - STATE - process
+12:44:01 - INFO - [process] - Started
+12:44:01 - INFO - Processing item: Stacy - sshelby@techdev.com
+12:44:01 - INFO - [process] - Ended
+12:44:01 - INFO - [setTransactionStatus] - Started
+12:44:01 - STATE - get_transaction
+12:44:01 - INFO - [getTransactionData] - Started
+12:44:01 - INFO - Getting data
+12:44:01 - INFO - [getTransactionData] - Ended
+12:44:01 - STATE - process
+12:44:01 - INFO - [process] - Started
+12:44:01 - INFO - Processing item: Lara - lpalmer@timepath.co.uk
+12:44:01 - INFO - [process] - Ended
+12:44:01 - INFO - [setTransactionStatus] - Started
+12:44:01 - STATE - get_transaction
+12:44:01 - INFO - [getTransactionData] - Started
+12:44:01 - INFO - No data
+12:44:01 - INFO - [getTransactionData] - Ended
+12:44:01 - STATE - end
+12:44:01 - INFO - [closeAllApplications] - Started
+12:44:01 - INFO - [closeAllApplications] - Ended
+12:44:01 - INFO - #####---AUTOMATION ENDED---#####
