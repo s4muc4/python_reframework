@@ -4,6 +4,9 @@ This project is a clone of REFramework (Robotic Enterprise Framework) designed b
 
 ## Installation
 
+**IMPORTANT:** Python 3.11.4 or newer.
+
+
 - Activate your system to execute scripts. In this case, to activate venv in this project.
     - Open PowerShell in admin mode.
     - Put this code to allow venv activation:  ``Set-ExecutionPolicy RemoteSigned`` send Enter,  type ``Y``, and send Enter again.
