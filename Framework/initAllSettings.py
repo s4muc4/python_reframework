@@ -1,6 +1,7 @@
 from Components.logs import logMessage
 import pandas as pd
 import os
+from Components.finalReport import buildReport
 
 
 def initAllSettings(file_path):
@@ -24,6 +25,8 @@ def initAllSettings(file_path):
         config.update(sheet_dict)
 
     config = {key: value for key, value in config.items() if pd.notna(key)}
+
+    config['reportPath']=buildReport()
 
 
     logMessage(F"{len(config)} items in config", "TRACE")

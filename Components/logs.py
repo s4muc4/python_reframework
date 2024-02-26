@@ -1,8 +1,8 @@
 import random
 import string
 import os
-
 from datetime import datetime
+from Components.logs import *
 
 def logMessage(message, logLevel):
     print(logLevel + ' - ' + message)

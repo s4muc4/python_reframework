@@ -1,7 +1,18 @@
 # Ignora todas as bibliotecas
 venv/Lib/site-packages/*
 
-# Exceto essas que sao essenciais
+# Ignora Logs e Reports
+#Reports/*
+#ExceptionScreenshots/*
+Logs/*
+
+# Ignora pycache
+__pycache__/
+
+# Ignora file de hashcode caso seja pausado em runtime
+hash_code.txt
+
+# Mantem bibliotecas essenciais
 !venv/Lib/site-packages/_distutils_hack/
 !venv/Lib/site-packages/pip/
 !venv/Lib/site-packages/pip-22.2.2.dist-info/
@@ -10,5 +21,8 @@ venv/Lib/site-packages/*
 !venv/Lib/site-packages/setuptools-63.2.0.dist-info/
 !venv/Lib/site-packages/distutils-precedence.pth
 
-# Ignora pycache
-__pycache__/
+# Mantem pastas essenciais
+ExceptionScreenshots/info.txt
+Reports/info.txt
+Logs/info.txt
+

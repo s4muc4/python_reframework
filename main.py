@@ -1,20 +1,23 @@
-from Components.statemachine import StateMachine
-from Components.exceptions import BusinessRuleException
+from Components.statemachine import *
+from Components.exceptions import *
 from Components.logs import *
-from Components.screenInfo import get_screen_resolution
-from Framework.initAllSettings import initAllSettings
-from Framework.killAllProcess import killAllProcess
-from Framework.initAllApplications import initAllApplications
-from Framework.getTransactionData import getTransactionData
-from Framework.process import process
-from Framework.closeAllApplications import closeAllApplications
-from Framework.setTransactionStatus import setTransactionStatus
+from Components.screenInfo import *
+from Components.finalReport import *
+from Framework.initAllSettings import *
+from Framework.killAllProcess import *
+from Framework.initAllApplications import *
+from Framework.getTransactionData import *
+from Framework.process import *
+from Framework.closeAllApplications import *
+from Framework.setTransactionStatus import *
 import pandas as pd 
-from Project.getInputData import getInputData
+from Project.getInputData import *
 
-
+##Preparing environment
 hashCodeProject = generateHashCodeProject()
 clear_logs_output()
+
+
 
 logMessage('#####---AUTOMATION STARTED---#####', "INFO")
 
@@ -48,7 +51,7 @@ while finalizeAutomation == False:
                 transactions = getInputData(config['InputData_Path'], config['InputData_Sheet'])
 
             if int(config['MaxConsecutiveSystemExceptions'])>0 and consecutiveSystemExceptions >= int(config['MaxConsecutiveSystemExceptions']):
-                raise Exception(config['ExceptionMessage_ConsecutiveErrors'] + 'Consecutive retry number: ' + str(consecutiveSystemExceptions+1))
+                raise Exception(config['ExceptionMessage_ConsecutiveErrors'] + 'Consecutive retry number: ' + str(consecutiveSystemExceptions))
             
             initAllApplications()
 
@@ -71,9 +74,11 @@ while finalizeAutomation == False:
         continue
 
     if stateMachine.state == 'process':
+
+        startTime = datetime.now().strftime("%H:%M:%S")
         try:
             businessRuleException = None
-            process(transactionItem, config)
+            process(transactionItem,transactionNumber, config)
 
             stateMachine.process_success()
 
@@ -86,7 +91,8 @@ while finalizeAutomation == False:
             stateMachine.process_se()
 
         finally:
-            transactionNumber, retryNumber, consecutiveSystemExceptions = setTransactionStatus(transactionNumber, retryNumber, consecutiveSystemExceptions, config, transactionItem, systemException, businessRuleException)
+            endTime = datetime.now().strftime("%H:%M:%S")
+            transactionNumber, retryNumber, consecutiveSystemExceptions = setTransactionStatus(transactionNumber, retryNumber, consecutiveSystemExceptions, config, transactionItem, systemException, businessRuleException, startTime, endTime)
             continue
 
     if stateMachine.state == 'end':
