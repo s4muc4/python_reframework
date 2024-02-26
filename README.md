@@ -22,7 +22,9 @@ This project is a clone of REFramework (Robotic Enterprise Framework) designed b
 - To install all project dependencies in your venv, execute this code: ``pip install -r requirements.txt``
 
 ## Usage
-
+- Run this project always by ``main.py``
+- If you want test this project template, only run this project without make changes.
+- If you want to implement your business process in this template, feel free to discard the example in this template.
 ----
 
 ## Contributing
