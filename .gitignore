@@ -2,9 +2,9 @@
 venv/Lib/site-packages/*
 
 # Ignora Logs e Reports
-#Reports/*
-#ExceptionScreenshots/*
-Logs/*
+Reports/*
+ExceptionScreenshots/*
+#Logs/*
 
 # Ignora pycache
 __pycache__/

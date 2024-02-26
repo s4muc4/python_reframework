@@ -1,0 +1,161 @@
+01:00:41 - INFO - #####---AUTOMATION STARTED---#####
+01:00:41 - STATE - init
+01:00:41 - TRACE - Your resolution is: 1440x900
+01:00:41 - INFO - [initAllSettings] - Started
+01:00:41 - INFO - [buildReport] - Started
+01:00:41 - INFO - [buildReport] - Ended
+01:00:41 - TRACE - 18 items in config
+01:00:41 - INFO - [initAllSettings] - Ended
+01:00:41 - INFO - [killAllProcess] - Started
+01:00:41 - TRACE - No process found with name chrome.
+01:00:41 - TRACE - No process found with name excel.
+01:00:41 - INFO - [killAllProcess] - Ended
+01:00:41 - INFO - [getInputData] - Started
+01:00:41 - INFO - [getInputData] - Ended
+01:00:41 - INFO - [initAllApplications] - Started
+01:00:41 - INFO - [initAllApplications] - Ended
+01:00:41 - STATE - get_transaction
+01:00:41 - INFO - [getTransactionData] - Started
+01:00:41 - TRACE - Getting data
+01:00:41 - INFO - [getTransactionData] - Ended
+01:00:41 - STATE - process
+01:00:41 - INFO - [process] - Started
+01:00:41 - TRACE - Processing item 1: John - jsmith@itsolutions.co.uk
+01:00:41 - INFO - [process] - Ended
+01:00:41 - INFO - [setTransactionStatus] - Started
+01:00:41 - INFO - [updateReport] - Started
+01:00:41 - INFO - [updateReport] - Ended
+01:00:41 - STATE - get_transaction
+01:00:41 - INFO - [getTransactionData] - Started
+01:00:41 - TRACE - Getting data
+01:00:41 - INFO - [getTransactionData] - Ended
+01:00:41 - STATE - process
+01:00:41 - INFO - [process] - Started
+01:00:41 - TRACE - Processing item 2: Jane - jdorsey@mc.com
+01:00:41 - INFO - [setTransactionStatus] - Started
+01:00:41 - ERROR - Transaction 2 Business Exception
+01:00:41 - INFO - [updateReport] - Started
+01:00:41 - INFO - [updateReport] - Ended
+01:00:41 - STATE - get_transaction
+01:00:41 - INFO - [getTransactionData] - Started
+01:00:41 - TRACE - Getting data
+01:00:41 - INFO - [getTransactionData] - Ended
+01:00:41 - STATE - process
+01:00:41 - INFO - [process] - Started
+01:00:41 - TRACE - Processing item 3: Albert - kipling@waterfront.com
+01:00:41 - INFO - [process] - Ended
+01:00:41 - INFO - [setTransactionStatus] - Started
+01:00:41 - INFO - [updateReport] - Started
+01:00:41 - INFO - [updateReport] - Ended
+01:00:41 - STATE - get_transaction
+01:00:41 - INFO - [getTransactionData] - Started
+01:00:41 - TRACE - Getting data
+01:00:41 - INFO - [getTransactionData] - Ended
+01:00:41 - STATE - process
+01:00:41 - INFO - [process] - Started
+01:00:41 - TRACE - Processing item 4: Michael - mrobertson@mc.com
+01:00:41 - INFO - [setTransactionStatus] - Started
+01:00:41 - ERROR - Transaction 4 Business Exception
+01:00:42 - INFO - [updateReport] - Started
+01:00:42 - INFO - [updateReport] - Ended
+01:00:42 - STATE - get_transaction
+01:00:42 - INFO - [getTransactionData] - Started
+01:00:42 - TRACE - Getting data
+01:00:42 - INFO - [getTransactionData] - Ended
+01:00:42 - STATE - process
+01:00:42 - INFO - [process] - Started
+01:00:42 - TRACE - Processing item 5: Doug - dderrick@timepath.co.uk
+01:00:42 - INFO - [process] - Ended
+01:00:42 - INFO - [setTransactionStatus] - Started
+01:00:42 - INFO - [updateReport] - Started
+01:00:42 - INFO - [updateReport] - Ended
+01:00:42 - STATE - get_transaction
+01:00:42 - INFO - [getTransactionData] - Started
+01:00:42 - TRACE - Getting data
+01:00:42 - INFO - [getTransactionData] - Ended
+01:00:42 - STATE - process
+01:00:42 - INFO - [process] - Started
+01:00:42 - TRACE - Processing item 6: Jessie - jmarlowe@aperture.us
+01:00:42 - INFO - [process] - Ended
+01:00:42 - INFO - [setTransactionStatus] - Started
+01:00:42 - INFO - [updateReport] - Started
+01:00:42 - INFO - [updateReport] - Ended
+01:00:42 - STATE - get_transaction
+01:00:42 - INFO - [getTransactionData] - Started
+01:00:42 - TRACE - Getting data
+01:00:42 - INFO - [getTransactionData] - Ended
+01:00:42 - STATE - process
+01:00:42 - INFO - [process] - Started
+01:00:42 - TRACE - Processing item 7: Stan - shamm@sugarwell.org
+01:00:42 - INFO - [setTransactionStatus] - Started
+01:00:42 - ERROR - Transaction 7 Business Exception
+01:00:42 - INFO - [updateReport] - Started
+01:00:42 - INFO - [updateReport] - Ended
+01:00:42 - STATE - get_transaction
+01:00:42 - INFO - [getTransactionData] - Started
+01:00:42 - TRACE - Getting data
+01:00:42 - INFO - [getTransactionData] - Ended
+01:00:42 - STATE - process
+01:00:42 - INFO - [process] - Started
+01:00:42 - TRACE - Processing item 8: Michelle - mnorton@aperture.us
+01:00:42 - INFO - [process] - Ended
+01:00:42 - INFO - [setTransactionStatus] - Started
+01:00:42 - INFO - [updateReport] - Started
+01:00:42 - INFO - [updateReport] - Ended
+01:00:42 - STATE - get_transaction
+01:00:42 - INFO - [getTransactionData] - Started
+01:00:42 - TRACE - Getting data
+01:00:42 - INFO - [getTransactionData] - Ended
+01:00:42 - STATE - process
+01:00:42 - INFO - [process] - Started
+01:00:42 - TRACE - Processing item 9: Stacy - sshelby@techdev.com
+01:00:42 - INFO - [setTransactionStatus] - Started
+01:00:42 - ERROR - Transaction 9 System Exception
+01:00:42 - INFO - [takeScreenshot] - Started
+01:00:42 - ERROR - Screenshot saved: screenshot_26022024_010042.png
+01:00:42 - INFO - [takeScreenshot] - Ended
+01:00:42 - INFO - [closeAllApplications] - Started
+01:00:42 - INFO - [closeAllApplications] - Ended
+01:00:42 - INFO - [updateReport] - Started
+01:00:42 - INFO - [updateReport] - Ended
+01:00:42 - STATE - init
+01:00:42 - INFO - [initAllApplications] - Started
+01:00:42 - INFO - [initAllApplications] - Ended
+01:00:42 - STATE - get_transaction
+01:00:42 - INFO - [getTransactionData] - Started
+01:00:42 - TRACE - Getting data
+01:00:42 - INFO - [getTransactionData] - Ended
+01:00:42 - STATE - process
+01:00:42 - INFO - [process] - Started
+01:00:42 - TRACE - Processing item 9: Stacy - sshelby@techdev.com
+01:00:42 - INFO - [setTransactionStatus] - Started
+01:00:42 - ERROR - Transaction 9 System Exception
+01:00:42 - INFO - [takeScreenshot] - Started
+01:00:42 - ERROR - Screenshot saved: screenshot_26022024_010042.png
+01:00:42 - INFO - [takeScreenshot] - Ended
+01:00:42 - INFO - [closeAllApplications] - Started
+01:00:42 - INFO - [closeAllApplications] - Ended
+01:00:42 - INFO - [updateReport] - Started
+01:00:42 - INFO - [updateReport] - Ended
+01:00:42 - STATE - init
+01:00:42 - INFO - [initAllApplications] - Started
+01:00:42 - INFO - [initAllApplications] - Ended
+01:00:42 - STATE - get_transaction
+01:00:42 - INFO - [getTransactionData] - Started
+01:00:42 - TRACE - Getting data
+01:00:42 - INFO - [getTransactionData] - Ended
+01:00:42 - STATE - process
+01:00:42 - INFO - [process] - Started
+01:00:42 - TRACE - Processing item 10: Lara - lpalmer@timepath.co.uk
+01:00:42 - INFO - [setTransactionStatus] - Started
+01:00:42 - ERROR - Transaction 10 Business Exception
+01:00:42 - INFO - [updateReport] - Started
+01:00:42 - INFO - [updateReport] - Ended
+01:00:42 - STATE - get_transaction
+01:00:42 - INFO - [getTransactionData] - Started
+01:00:42 - INFO - No data
+01:00:42 - INFO - [getTransactionData] - Ended
+01:00:42 - STATE - end
+01:00:42 - INFO - [closeAllApplications] - Started
+01:00:42 - INFO - [closeAllApplications] - Ended
+01:00:42 - INFO - #####---AUTOMATION ENDED---#####
