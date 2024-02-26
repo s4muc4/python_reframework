@@ -1,6 +1,6 @@
 # Python REFramework
 
-This project is a clone of REFramework (Robotic Enterprise Framework) designed by UiPath. Including state machines, clone of all workflows and transactional project.
+This project is a clone of REFramework (Robotic Enterprise Framework) designed by UiPath. Including state machines, clone of all workflows and transactional project. I developed this template to help RPA Developers to implement your transitional business process in python, using the best framework of RPA.
 
 ## Installation
 
@@ -27,7 +27,7 @@ This project is a clone of REFramework (Robotic Enterprise Framework) designed b
 - If you want to implement your business process in this template, feel free to discard the example in this template.
 ----
 
-## Contributing
+## Author
 
 Samuel Ferraz de Araujo (Senior RPA Developer)
 
