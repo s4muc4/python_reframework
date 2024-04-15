@@ -13,7 +13,10 @@ This project is a clone of REFramework (Robotic Enterprise Framework) designed b
 
 ![Alt Text](readmeImages/powerShell_ActivateRemoteSigned.png)
 
-- Activate and deactivate your venv.
+- Create your venv
+    - Open terminal in your IDE and type  ``python -m venv venv`` to create your venv.
+
+- Activate your venv.
     - To activate, type in terminal: ``.\venv\Scripts\activate``
     - The name of your venv will appear in terminal like this image:
 
