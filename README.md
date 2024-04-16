@@ -28,6 +28,7 @@ This project is a clone of REFramework (Robotic Enterprise Framework) designed b
 - Run this project always by ``main.py``
 - If you want test this project template, only run this project without make changes.
 - If you want to implement your business process in this template, feel free to discard the example in this template.
+- If you install any package, update requirements.txt using this command ``pip freeze > requirements.txt``
 ----
 
 ## Author
